@@ -1,43 +1,81 @@
-.MainDiv {
-    display: flex;
+.mainDiv {
+    height:65vh;
     width:100%;
-    height:6rem;
-    padding-top:1.5rem;
-}
-
-.navbar {
-    width:60%;
     display: flex;
-    gap:10%;
-    justify-content: center;
 }
-.navbar a {
-   text-decoration: none;
-   color:black; 
-
+.leftText {
+    width: 50%;
 }
-.navin {
-    width:50%;
-    display: flex;
-    justify-content: space-around;
-    padding-top:10px;
-    font-weight: bold;
+.photoDiv {
+   width:100%;
+   display: flex;   
+   justify-content: center; 
 }
-.logo {
-    width:20%;
-   display: flex;
-   justify-content: center;
+.photoDiv img {
+    position: absolute;
+    bottom:0;
 }
-
-.signup {
-    width:20%;
+.upperText {
+    height:60%;
+    padding-left:10rem;
+  
 }
-button {
-    height: 2.2rem;
-    width:5rem;
-    background-color: rgb(219, 1, 1);
-    border:none;
-    color:white;
-    font-size:15px;
-    font-weight: 500;
+.upperText pre {
+    font-family: "Protest Guerrilla", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110px;
+    line-height:1;
+}   
+.middleText {
+    height:20%;
+}
+.middleText pre {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:520;
+    font-style: normal;
+    color:rgba(128, 128, 128, 0.921);
+    padding-left:10rem;
+    padding-top:2rem;
+}
+.lowerText {
+    height:20%;
+    padding-left:10rem;
+    padding-top:2rem;
+  
+}
+.btnDiv {
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+}
+.shopNow {
+    height:3rem;
+    width:9rem;
+    background-color: rgb(215, 2, 2);
+    font-size:18px;
+    border-radius:5px ;
+    &:hover {
+        color:rgb(202, 0, 0);
+        background-color: rgba(255, 0, 0, 0);
+        transition:0.3s;
+        box-shadow: rgba(0, 0, 0, 0.286) 2px 2px 5px;
+    }
+}
+.category {
+    height:3rem;
+    width:9rem;
+    background-color: rgba(0, 0, 0, 0);
+    font-size:18px;
+    color:rgb(202, 0, 0);
+    border: rgba(0, 0, 0, 0.497) 1px solid;
+    border-radius:5px ;
+    &:hover {
+        color:rgb(255, 255, 255);
+        background-color: rgb(255, 0, 0);
+        transition:0.3s;
+        border:none;
+        box-shadow: rgba(0, 0, 0, 0.286) 2px 2px 5px;
+    }
 }

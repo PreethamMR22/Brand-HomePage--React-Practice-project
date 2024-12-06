@@ -1,31 +1,25 @@
 import React from 'react'
-import 'D:\\program\\React Js\\learn React\\Mini projects\\myapp\\src\\components\\Hero.css'
-import logo from '../photos/brand_logo.png'
-function Hero() {
+import './Hero.css'
+import shoe from '../photos/hero-image.png'
+import Login from './Login'
+import LeftTextHero from './LeftTextHero'
+import RightPhotoDivHero from './RightPhotoDivHero'
+
+
+function Hero(props) {
   return (
-    <>
-    <div className="MainDiv">
-        <div className= "logo">
-            <div className="logoArea">
-            <img src={logo} alt="" />
-            </div>
+  <>
+    <div className="mainDiv">
+        
+        <LeftTextHero/> 
+        <Login/>
 
-        </div>
-        <div className="navbar">
-            <div className="navin">
-            <a href="#">Menu</a>
-            <a href="#">Location</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            </div>
-        </div>
-        <div className="signup">
-            <button calssName="Loginbtn">Login</button>
 
-        </div>
+
+       <RightPhotoDivHero shoe={shoe}/>
     </div>
-    
-    </>
+
+  </>
   )
 }
 

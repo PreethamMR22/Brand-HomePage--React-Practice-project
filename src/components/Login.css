@@ -1,0 +1,127 @@
+.main {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-left:25rem;
+    margin-top:8rem;
+    border-radius: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.158) 3px 3px 25px 10px;
+    width: 80%;
+}
+.header {
+    height:30%;
+}
+.inputField {
+    height:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.emailInput {
+    height:2.2rem;
+    width: 20rem;
+    margin-bottom:1.5rem;
+    padding-left: 10px;
+    border:0.5px solid rgba(76, 76, 76, 0.427);
+    border-radius:10px;
+
+    &:hover {
+        width:22rem;
+        transition:0.3s;
+    }
+}
+.passwordInput {
+    height:2.2rem;
+    width:20rem;
+    padding-left:10px;
+    border-radius:10px;
+    border:0.5px solid rgba(76, 76, 76, 0.427);
+    &:hover {
+        width:22rem;
+        transition:0.3s;
+    }
+}
+.LoginField {
+    height:40%;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: "Protest Guerrilla", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tagLine pre{
+    font-size:15px;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.signin {
+    height:2.5rem;
+    width:14rem;
+
+}
+.trouble p {
+    font-size:10px;
+}
+.btnClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.5rem;
+}
+.orSignIn {
+    display: flex;
+    justify-content: center;
+}
+.orSignIn p {
+    font-size:10px;
+    color:rgb(0, 0, 0);
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+}
+.btnDesign {
+    height:2rem;
+    width: 5rem;
+    border:0.3px solid rgba(78, 78, 78, 0.137);
+    font-size:10px;
+    padding-left:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.181) 5px 5px 10px ;
+        transition:0.3s;
+        border:none;
+    }
+}
+.outListener {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.listing {
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+i {
+    font-size:15px;
+}
