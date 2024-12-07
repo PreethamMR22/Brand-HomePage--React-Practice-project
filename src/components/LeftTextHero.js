@@ -1,9 +1,15 @@
 import React from 'react'
 import './Hero.css'
+import { motion } from 'framer-motion'
+
 function LeftTextHero() {
   return (
     <>
-         <div className="leftText">
+         <motion.div className="leftText"
+         initial={{width:0,opacity:0}}
+         animate={{width:"100%",opacity:1}}
+         exit={{width:0,opacity:0}}
+         >
             <div className="upperText">
                 <pre>
                     YOUR FEET<br/>
@@ -29,7 +35,7 @@ function LeftTextHero() {
                 </div>
 
             </div>
-        </div>
+        </motion.div>
   </>
   )
 }

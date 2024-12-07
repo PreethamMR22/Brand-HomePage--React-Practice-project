@@ -1,9 +1,15 @@
 import React from 'react'
 import './Login.css'
+import { motion } from 'framer-motion'
+
 function Login() {
   return (
     <>
-    <div className="outerCover">
+    <motion.div className="outerCover"
+    initial={{width:0,opacity:0}}
+    animate={{width:"100%",opacity:1}}
+    exit={{width:0,opacity:0}}
+    >
 
   
     <div className="main">
@@ -26,7 +32,7 @@ function Login() {
                 <input type="password" placeholder='password' className="passwordInput" />
             </div>
             <div className="trouble">
-                <p>Already have an account? <a href='#'>SignUp</a></p>
+                <p>Don't have an account? <a href='#'>SignUp</a></p>
             </div>
         </div>
     <div className="loginField">
@@ -52,7 +58,7 @@ function Login() {
     </div>
     </div>
     </div>
-    </div>
+    </motion.div>
     </>
   )
 }
