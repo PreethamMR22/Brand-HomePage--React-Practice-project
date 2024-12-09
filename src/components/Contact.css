@@ -1,0 +1,243 @@
+
+.outer {
+    margin-top:2rem;
+    height: 100%;
+    width: 100%;
+}
+.photoNewDiv {
+    height:50%;
+    width:100%;
+    background:url("../photos/red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -13rem;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+}
+.getInTouch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.getInTouch span {
+    font-size:4rem;
+    color:#ffff;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.tagLine{
+    color:white;
+    font-weight:50;
+    opacity:70%;    
+}
+.contactDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.coverDiv {
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+}
+.leftDiv {
+    height: 18rem;
+    width: 18rem;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:-2rem;
+    background-color: white;
+    z-index: 10;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.041) 2px 2px 15px 10px;
+    border:0.05px solid rgba(0, 0, 0, 0.059);
+    &:hover {
+        height:19rem;   
+        width:19rem;
+        z-index: 20;
+        margin-left:4rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 15px 10px;
+        transition: 0.3s ease-in-out;   
+    }
+}
+.rightDiv {
+    height: 18rem;
+    width: 18rem;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:-2rem;
+    background-color: white;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.041) 2px 2px 15px 10px;
+    border:0.05px solid rgba(0, 0, 0, 0.059);
+    &:hover {
+        height:19rem;   
+        width:19rem;
+        z-index: 20;
+        margin-right:4rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 15px 10px;
+        transition: 0.3s ease-in-out;   
+    }
+}
+
+.iconDiv {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:0;
+    height:30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+.iconDiv i {
+    font-size:40px;
+}
+.inInfoDiv {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:13px;
+    color:rgb(0, 0, 0);
+    font-size:10px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.phNoDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: 500;
+    font-size:13px;
+    color:rgba(4, 102, 200, 0.818);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.phNoDiv div {
+    cursor: pointer;
+}
+.supportBtn {
+    color:white;
+    background-color:rgb(0, 149, 255);
+    height:3rem;
+    width:8rem;
+    font-size:12px;
+    
+    &:hover {
+        background-color: white;
+        color:rgb(0, 149, 255) ;
+        border:0.5px solid rgb(0, 149, 255);
+        transition: 0.4s;
+    }
+}
+.mapDiv {
+    margin-top:2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mapDiv h1 {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.map {
+    height: 28.2rem;
+    width:60rem;
+    border: solid 1px rgba(0, 0, 0, 0.319);
+    display: flex;
+    justify-content: space-between;
+}
+.mapEmbeddings {
+    height:100%;
+    width:50%;
+}
+.mapDetails {
+    width: 32%;
+    margin-right: 10px;
+}
+.mapDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.headQuarters span {
+    font-family: "Hubot Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.quartersInfo {
+    font-family: "Hubot Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size:12px;
+    font-variation-settings:
+      "wdth" 100;
+      margin-top:10px;
+}
+.headingphoneFax {
+    font-family: "Hubot Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.phoneInfo {
+    font-family: "Hubot Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:12px;
+    font-variation-settings:
+      "wdth" 100;
+      display: flex;
+      flex-direction: column;
+      margin-top:10px;
+}
+.pressMedia span {
+    font-family: "Hubot Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      margin-top:10px;
+}
+.mediaInfo {
+    font-family: "Hubot Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size:12px;
+    font-variation-settings:
+      "wdth" 100;
+      margin-top:10px;
+      color:rgb(1, 81, 201);
+      cursor: pointer
+}
